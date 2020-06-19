@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corona live update</title>
+
+  <!-- Necessary Bootstrap Styling links -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+
+  <!-- Styling for the column , row and body -->
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+      height: 300px;
+    }
+
+    .row:after {
+      float: left;
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    .body {
+
+      background-repeat: no-repeat;
+
+    }
+  </style>
+</head>
+
+<body style="background-color:slategray; center fixed">
+
+  <!-- Navigation bar -->
+  <ul class="nav nav-justified navbar-dark bg-dark">
+    <li class="nav-item">
+      <a class="nav-link active" href="/" style="color: seagreen;"><strong>Home</strong></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/country" style="color: seagreen;"><strong>India</strong></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/world" style="color: seagreen;"><strong>World</strong></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" style="color: seagreen;"><strong>Info</strong></a>
+    </li>
+  </ul>
+  <br><br>
+
+  <marquee scrollamount="30">
+    <h1>Get to know about the virus</h1>
+  </marquee>
+  <br>
+
+  <!-- containers for sign and symptoms  -->
+  <div class="container">
+    <center>
+      <h3><strong>Sign and Symptoms</strong></h3>
+    </center><br>
+  </div>
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-4">
+        <!-- Cards  -->
+        <div class="card" style="width: 18rem;">
+          <div class="card-body ">
+            <h5 class="card-title"><strong>Most common Symptoms</strong></h5>
+            <img class="card-img-top" src="/static\sign.jpg" alt="Card image cap"
+              width="175px" height="160px">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Less common Symptoms</strong></h5>
+            <img class="card-img-top" src="/static\symp.jpg" alt="Card image cap" width="175px" height="160px">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title"><strong>Serious Symptoms</strong></h5>
+            <img class="card-img-top" src="/static\serious1.jpg" alt="Card image cap" width="175px" height="160px">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br>
+
+  
+    <div class="card">
+      <div class="card-header">
+        <h4>Preventive Measures</h4>
+      </div>
+      <div class="card-body">
+        <p class="card-text">1) Clean your hands often. Use soap and water, or an alcohol-based hand rub.
+          <br>2) Maintain a safe distance from anyone who is coughing or sneezing.
+          <br>3) Don’t touch your eyes, nose or mouth.
+          <br>4) Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.
+          <br>5) Stay home if you feel unwell.
+          <br>6) If you have a fever, cough and difficulty breathing, seek medical attention. Call in advance.
+          <br>7) Follow the directions of your local health authority.
+        </p>
+      </div>
+    </div>
+  <br>
+
+  
+    <div class="card">
+      <div class="card-header">
+        <h4>What is CoronaVirus?</h4>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Coronaviruses are a large family of viruses which may cause illness in animals or humans.
+          In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to
+          more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome
+          (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.</p>
+      </div>
+    </div>
+  </div><br>
+  
+    <div class="card">
+      <div class="card-header">
+        <h4>What is COVID-19? </h4>
+      </div>
+      <div class="card-body">
+        <p class="card-text">COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This
+          new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019. COVID-19 is
+          now a pandemic affecting many countries globally.</p>
+      </div>
+    </div>
+  </div>
+  <br>
+  
+    <div class="card">
+      <div class="card-header">
+        <h4>How does COVID-19 spread? </h4>
+      </div>
+      <div class="card-body">
+        <p class="card-text">People can catch COVID-19 from others who have the virus. The disease spreads primarily
+          from person to person through small droplets from the nose or mouth, which are expelled when a person with
+          COVID-19 coughs, sneezes, or speaks. These droplets are relatively heavy, do not travel far and quickly sink
+          to the ground. People can catch COVID-19 if they breathe in these droplets from a person infected with the
+          virus. This is why it is important to stay at least 1 meter) away from others. These droplets can land on
+          objects and surfaces around the person such as tables, doorknobs and handrails. People can become infected by
+          touching these objects or surfaces, then touching their eyes, nose or mouth. This is why it is important to
+          wash your hands regularly with soap and water or clean with alcohol-based hand rub.
+
+          WHO is assessing ongoing research on the ways that COVID-19 is spread and will continue to share updated
+          findings. </p>
+      </div>
+    </div>
+  </div><br>
+  
+    <div class="card">
+      <div class="card-header">
+        <h4>Can COVID-19 be caught from a person who has no symptoms?</h4>
+      </div>
+      <div class="card-body">
+        <p class="card-text">COVID-19 is mainly spread through respiratory droplets expelled by someone who is coughing
+          or has other symptoms such as fever or tiredness. Many people with COVID-19 experience only mild symptoms.
+          This is particularly true in the early stages of the disease. It is possible to catch COVID-19 from someone
+          who has just a mild cough and does not feel ill.
+
+          Some reports have indicated that people with no symptoms can transmit the virus. It is not yet known how often
+          it happens. WHO is assessing ongoing research on the topic and will continue to share updated findings.
+      </div>
+      </p>
+    </div>
+  </div><br>
+
+  <div class="card">
+    <div class="card-body">
+      <center><strong>
+          <h4>
+            <p> Got more queries? <a
+                href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub/q-a-detail/q-a-coronaviruses">Click
+                Me</a></p>
+          </h4>
+        </strong></center>
+    </div>
+  </div><br>
+
+  <!-- Necessary Media -->
+
+  <ul class="list-unstyled">
+    <li class="media">
+      <iframe class="mr-3" width="450" height="250" src="https://www.youtube.com/embed/d914EnpU4Fo" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1"> Wash and Clean your Hands Frequently</h5>
+        Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public
+        place, or after blowing your nose, coughing, or sneezing.
+
+        If soap and water are not readily available, use a hand sanitizer that contains at least 60% alcohol. Cover all
+        surfaces of your hands and rub them together until they feel dry.
+
+        Avoid touching your eyes, nose, and mouth with unwashed hands.
+      </div>
+    </li>
+    <li class="media my-4">
+      <iframe class="mr-3" width="450" height="250" src="https://www.youtube.com/embed/EfI6lMLuV0Q" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      <div class="media-body">
+        <h5 class="mt-0 mb-1">Instructions to wear mask </h5>
+        The video suggest on how to wear mask.Before touching the mask, clean your hands with an alcohol-based hand rub
+        or soap and water
+        Inspect the mask for tears or holes; do not use a mask that has previously been worn or is damaged.
+        Verify which side is the top – this is usually where the metal strip is
+        Then, identify the inside of the mask, which is usually the white side.
+        Place the mask on your face covering your nose, mouth and chin, making sure that there are no gaps between your
+        face and the mask.
+        Pinch the metal strip so it moulds to the shape of your nose.
+        Remember, do not touch the front of the mask while using it to avoid contamination; if you accidentally touch
+        it, clean your hands.
+      </div>
+    </li>
+
+  </ul>
+
+
+</body>
+
+</html>
